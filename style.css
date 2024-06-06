@@ -118,20 +118,21 @@ body{
   }
 
   .footer>h5{
-    color: white;
+    color: #000;
     font-size: 1.2em;
     text-align: center;
     line-height: 0.2em;
+	font-weight: bolder;
   }
 
   .bg-img{
-	margin: 0;
+	margin: -5px;
 	/* background-color: rgb(224, 85, 4); */
 	/* background-image: url(https://source.unsplash.com/VWcPlbHglYc); */
 	background-size: cover;
 	background-position: center;
 	background-blend-mode: multiply;
-	color: #ffffff2a;
-	filter: blur(4px);
-	background-image: url("images/hero-section.jpg");
+	/* color: #ffffff2a;
+	filter: blur(4px); */
+	background-image: url("images/background\ image.jpg");
   }

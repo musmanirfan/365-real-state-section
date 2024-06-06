@@ -3,6 +3,10 @@ body{
     padding: 0;
 }
 
+.hero-sec{
+	margin: 0;
+}
+
 .container-image {
 	position: relative;
 	width: 100%;
@@ -11,11 +15,11 @@ body{
 	flex-wrap: wrap;
 	transform-style: preserve-3d;
 	perspective: 500px;
-	margin: auto;
+	margin: 0;
   }
   .container-image .box {
 	position: relative;
-	width: 260px;
+	width: 230px;
 	height: 275px;
 	background: #000;
 	transition: 0.5s;
@@ -106,7 +110,7 @@ body{
   /* footer section started */
 
   .footer{
-    background-color: black;
+    /* background-color: black; */
     width: 100;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -118,4 +122,16 @@ body{
     font-size: 1.2em;
     text-align: center;
     line-height: 0.2em;
+  }
+
+  .bg-img{
+	margin: 0;
+	/* background-color: rgb(224, 85, 4); */
+	/* background-image: url(https://source.unsplash.com/VWcPlbHglYc); */
+	background-size: cover;
+	background-position: center;
+	background-blend-mode: multiply;
+	color: #ffffff2a;
+	filter: blur(4px);
+	background-image: url("images/hero-section.jpg");
   }

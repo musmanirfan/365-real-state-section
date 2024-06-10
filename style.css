@@ -1,6 +1,7 @@
 body{
     margin: 0;
     padding: 0;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .hero-sec{
@@ -122,7 +123,7 @@ body{
     font-size: 1.2em;
     text-align: center;
     line-height: 0.2em;
-	font-weight: bolder;
+	font-weight: 800;
   }
 
   .bg-img{
@@ -130,8 +131,9 @@ body{
 	/* background-color: rgb(224, 85, 4); */
 	/* background-image: url(https://source.unsplash.com/VWcPlbHglYc); */
 	background-size: cover;
-	background-position: center;
+	background-position: bottom;
 	background-blend-mode: multiply;
+	background-repeat: no-repeat;
 	/* color: #ffffff2a;
 	filter: blur(4px); */
 	background-image: url("images/background.jpg");

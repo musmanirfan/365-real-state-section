@@ -7,9 +7,9 @@ body {
 	background-repeat: no-repeat;
 	background-image: url("images/high.jpg");
 	margin: 0 !important;
-}
-
-.main{
+	max-height: 220px;
+	width: 100%;
+	overflow: auto;
 }
 
 .hero-sec {
@@ -17,7 +17,7 @@ body {
 	height: 90vh;
 }
 
-.images{
+.images {
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -27,95 +27,57 @@ body {
 	transform: scale(1.0);
 }
 
+.img1,
+.img2,
+.img3,
+.img4,
+.img5 {
+	width: 17%;
+	height: 300px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	transition: transform .2s;
+	border: 1px solid hsla(0, 0%, 100%, 0.50);
+	border-radius: 15px;
+}
 
-
-.img1{
+.img1 {
 	background-image: url("images/beach.png");
-	width: 17%;
-	height: 300px;
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
-	  transition: transform .2s;
-	  border: 1px solid hsla(0, 0%, 100%, 0.50);
-	  border-radius: 15px;
 }
 
-.img1:hover{
-	-ms-transform: scale(1.2); /* IE 9 */
-	-webkit-transform: scale(1.2); /* Safari 3-8 */
-	transform: scale(1.2); 
-}
-
-.img2{
+.img2 {
 	background-image: url("images/green.png");
-	width: 17%;
-	height: 300px;
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
-	transition: transform .2s;
-	border: 1px solid hsla(0, 0%, 100%, 0.50);
-	border-radius: 15px;
 }
-.img2:hover{
-	-ms-transform: scale(1.2); /* IE 9 */
-	-webkit-transform: scale(1.2); /* Safari 3-8 */
-	transform: scale(1.2); 
-}
-.img3{
+
+.img3 {
 	background-image: url("images/desert mountain.jpg");
-	width: 17%;
-	height: 300px;
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
-	transition: transform .2s;
-	border: 1px solid hsla(0, 0%, 100%, 0.50);
-	border-radius: 15px;
 }
-.img3:hover{
-	-ms-transform: scale(1.2); /* IE 9 */
-	-webkit-transform: scale(1.2); /* Safari 3-8 */
-	transform: scale(1.2); 
-}
-.img4{
+
+.img4 {
 	background-image: url("images/Dry mountain.jpg");
-	width: 17%;
-	height: 300px;
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
-	transition: transform .2s;
-	border: 1px solid hsla(0, 0%, 100%, 0.50);
-	border-radius: 15px;
 }
-.img4:hover{
-	-ms-transform: scale(1.2); /* IE 9 */
-	-webkit-transform: scale(1.2); /* Safari 3-8 */
-	transform: scale(1.2); 
-}
-.img5{
+
+.img5 {
 	background-image: url("images/snow-mountain.png");
-	width: 17%;
-	height: 300px;
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
-	transition: transform .2s;
-	border: 1px solid hsla(0, 0%, 100%, 0.50);
-	border-radius: 15px;
 }
-.img5:hover{
-	-ms-transform: scale(1.2); /* IE 9 */
-	-webkit-transform: scale(1.2); /* Safari 3-8 */
-	transform: scale(1.2); 
+
+
+.img1:hover,
+.img2:hover,
+.img3:hover,
+.img4:hover,
+.img5:hover {
+	-ms-transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+	transform: scale(1.2);
 }
+
 
 /* footer section started */
 
 .footer {
-	background-image: linear-gradient(to right, #c90f1b , #fcba23);
+	background-image: linear-gradient(to right, #c90f1b, #fcba23);
 	border: 1px solid hsla(0, 0%, 100%, 0.50);
 	width: fit-content;
 	padding: 10px 30px;
@@ -129,5 +91,6 @@ body {
 	text-align: center;
 	line-height: 0.2em;
 	font-weight: 600;
-    filter: drop-shadow(2px 4px 7px #000000);
+	filter: drop-shadow(2px 4px 7px #000000);
 }
+

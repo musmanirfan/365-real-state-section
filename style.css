@@ -5,7 +5,7 @@ body {
 	background-size: cover;
 	background-blend-mode: multiply;
 	background-repeat: no-repeat;
-	background-image: url("images/background.jpg");
+	background-image: url("images/high.jpg");
 }
 
 .hero-sec {
@@ -129,26 +129,27 @@ body {
 /* footer section started */
 
 .footer {
-	/* background-color: black; */
-	width: 100;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	margin-top: 20px;
+	background-image: linear-gradient(to right, #c90f1b , #fcba23);
+	border: 1px solid hsla(0, 0%, 100%, 0.50);
+	width: fit-content;
+	padding: 10px 30px;
+	margin: 50px auto !important;
+	border-radius: 15px;
 }
 
-.footer>h5 {
-	color: #022349;
-	font-size: 1.2em;
+.footer>p {
+	color: #ffffff;
+	font-size: 16px;
 	text-align: center;
 	line-height: 0.2em;
-	font-weight: 800;
+	font-weight: 600;
 }
 
-.bg-img {
+/* .bg-img {
 	/* margin: -5px; */
 	background-size: cover;
 	background-position: bottom;
 	background-blend-mode: multiply;
 	background-repeat: no-repeat;
-	background-image: url("images/background.jpg");
-}
+	background-image: url("images/hero-section2.jpg");
+} */

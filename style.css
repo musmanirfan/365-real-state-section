@@ -80,7 +80,7 @@ body {
 /* footer section started */
 
 .footer {
-	background-image: linear-gradient(to right, #c90f1b, #fcba23);
+	background-image: linear-gradient(to right, hsla(356, 86%, 42%, 0.5), hsla(42, 97%, 56%, 0.50));
 	border: 1px solid hsla(0, 0%, 100%, 0.50);
 	width: fit-content;
 	padding: 10px 30px;

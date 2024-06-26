@@ -26,7 +26,7 @@ body {
 	flex-wrap: wrap;
 	gap: 20px;
 	margin: 0 auto !important;
-	width: 90%;
+	width: 100%;
 	transform: scale(1.0);
 }
 
@@ -35,7 +35,7 @@ body {
 .img3,
 .img4,
 .img5 {
-	width: 220px;
+	width: 17%;
 	height: 300px;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -109,6 +109,23 @@ body {
 		width: 100%;
 		overflow: auto;
 	}
+
+	.img1,
+.img2,
+.img3,
+.img4,
+.img5 {
+	width: 220px;
+	height: 300px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	transition: transform .2s;
+	border: 1px solid hsla(0, 0%, 100%, 0.50);
+	border-radius: 15px;
+}
+
+
 	.hero-sec {
 		margin: 0;
 		height: 90vh;

@@ -19,6 +19,10 @@ body {
 	height: 90vh;
 }
 
+.hide{
+	display: none;
+}
+
 .images {
 	display: flex;
 	align-items: center;
@@ -129,6 +133,14 @@ body {
 	.hero-sec {
 		margin: 0;
 		height: 90vh;
+	}
+
+	.hide{
+		display: block;
+		width: 80%;
+		position: absolute;
+		top: 8%;
+		left: 0;
 	}
 
 	.footer>p {

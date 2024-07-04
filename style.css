@@ -13,10 +13,77 @@ body {
 	background-size: cover;
 	/* background-blend-mode: multiply; */
 	background-repeat: no-repeat;
-	background-image: url("images/high.jpg");
+	background-image: url("images/high2.png");
+	background-position: center 70%;
 	margin: 0 !important;
 	width: 100%;
 	overflow: auto;
+}
+
+@media (max-width: 1500px) {
+	.main{
+		background-size: cover;
+		background-blend-mode: multiply; 
+		background-repeat: no-repeat; 
+		background-position: top;
+		background-image: url("./images/heroMedium\ copy.jpg");
+		margin: 0 !important;
+		width: 100%;
+		overflow: auto;
+		min-height: 100vh !important;
+	}
+
+
+	.hero-sec {
+		margin: 0;
+		height: 60vh !important;
+	}
+}
+
+@media (max-width: 1110px) {
+	.main{
+		background-size: cover;
+		background-blend-mode: multiply; 
+		background-repeat: no-repeat; 
+		background-position: top;
+		background-image: url("./images/heroMedium.jpg");
+		margin: 0 !important;
+		width: 100%;
+		overflow: auto;
+		min-height: 100vh !important;
+	}
+
+	.hero-sec {
+		margin: 0;
+		height: 40vh !important;
+	}
+}
+/* @media (max-width: 852px) {
+	.main{
+		background-size: cover;
+		background-image: url("./images/heroafterSmall.png");
+		background-position: center;
+		margin: 0 !important;
+		width: 100%;
+		overflow: auto;
+	}
+}
+@media (max-width: 720px) {
+	.main{
+		background-size: cover;
+		background-image: url("./images/heroafterSmall2.png");
+		background-position: center;
+		margin: 0 !important;
+		width: 100%;
+		overflow: auto;
+	}
+} */
+
+.logo{
+	position: absolute;
+	top: 5%;
+	left: 5%;
+	width: 200px;
 }
 
 .hero-sec {

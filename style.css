@@ -231,7 +231,7 @@ body {
 		background-size: 100%;
 		/* background-blend-mode: multiply; */
 		background-repeat: no-repeat;
-		background-image: url("images/potrait.jpg") !important;
+		background-image: url("images/potrait2.jpg") !important;
 		margin: 0 !important;
 		width: 100%;
 		overflow: auto;
@@ -267,9 +267,10 @@ body {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		gap: 0;
-		padding-top: 10px;
-		padding-bottom: 30px;
+		gap: 10px;
+		padding-top: 10px !important;
+		padding-bottom: 10px !important;
+		height: auto !important;
 	}
 
 	.img1-cont>h3,

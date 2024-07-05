@@ -242,8 +242,8 @@ body {
 	.img3,
 	.img4,
 	.img5 {
-		width: 220px;
-		height: 300px;
+		width: 110px;
+		height: 160px;
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-position: center;
@@ -260,6 +260,7 @@ body {
 	.img4-cont,
 	.img5-cont {
 		background-color: rgba(0, 0, 0, 0.5);
+		border-radius: 0px 0px 15px 15px;
 		/* Black background with opacity */
 		position: absolute;
 		bottom: 0;
@@ -267,10 +268,7 @@ body {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		gap: 10px;
-		padding-top: 10px !important;
-		padding-bottom: 10px !important;
-		height: auto !important;
+		height: 40% !important;
 	}
 
 	.img1-cont>h3,
@@ -289,9 +287,21 @@ body {
 		text-align: center;
 	}
 
+	.img1-cont>h3,
+	.img2-cont>h3,
+	.img3-cont>h3,
+	.img4-cont>h3,
+	.img5-cont>h3 {
+		font-size: 0.8rem;
+	}
+
+	.img1-cont>p,	.img2-cont>p,	.img3-cont>p,	.img4-cont>p,	.img5-cont>p{
+		font-size: 0.5rem;
+	}
+
 	.hero-sec {
 		margin: 0;
-		height: 38vh !important;
+		height: 40vh !important;
 	}
 
 	.hide {

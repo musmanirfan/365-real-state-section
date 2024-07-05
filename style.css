@@ -131,6 +131,7 @@ body {
 .img4-cont,
 .img5-cont {
 	background-color: rgba(0, 0, 0, 0.5);
+	border-radius: 0px 0px 15px 15px;
 	/* Black background with opacity */
 	position: absolute;
 	bottom: 0;
@@ -222,8 +223,9 @@ body {
 	}
 
 	.logo {
-		position: static;
-		margin: 0 auto !important;
+		top: 1.5%;
+		left: 4%;
+		width: 150px;
 	}
 
 	.main-mobile {
@@ -231,7 +233,7 @@ body {
 		background-size: 100%;
 		/* background-blend-mode: multiply; */
 		background-repeat: no-repeat;
-		background-image: url("images/potrait2.jpg") !important;
+		background-image: url("images/potrait2-1.png") !important;
 		margin: 0 !important;
 		width: 100%;
 		overflow: auto;
@@ -242,8 +244,8 @@ body {
 	.img3,
 	.img4,
 	.img5 {
-		width: 110px;
-		height: 160px;
+		width: 150px;
+		height: 220px;
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-position: center;
@@ -292,16 +294,16 @@ body {
 	.img3-cont>h3,
 	.img4-cont>h3,
 	.img5-cont>h3 {
-		font-size: 0.8rem;
+		font-size: 1rem;
 	}
 
 	.img1-cont>p,	.img2-cont>p,	.img3-cont>p,	.img4-cont>p,	.img5-cont>p{
-		font-size: 0.5rem;
+		font-size: 0.7rem;
 	}
 
 	.hero-sec {
 		margin: 0;
-		height: 40vh !important;
+		height: 41vh !important;
 	}
 
 	.hide {
